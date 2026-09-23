@@ -26,7 +26,10 @@ def perimeter(a):
         Output:
             square_perimeter(float/int) : perimeter of square
     """
-
+    
+    if (a <= 0):
+        return "Square doesn't exists"
+    
     return 4 * a
 
 

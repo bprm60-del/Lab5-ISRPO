@@ -28,6 +28,9 @@ def perimeter(r):
             circle_perimeter(float/int) : perimeter of the circle
     """
     
+    if r < 0:
+        return "Circle doesn't exists"
+    
     return 2 * math.pi * r
 
 

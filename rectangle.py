@@ -28,6 +28,9 @@ def perimeter(a,b):
             rectangle_perimeter(float/int) : perimeter of rectangle
     """
 
+    if (a <= 0) or (b <= 0):
+        return "Rectangle doesn't exists"
+    
     return 2*(a+b)
 
 
